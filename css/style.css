@@ -99,6 +99,20 @@ Section Text:       15px/1.7 "Open Sans", arial, sans-serif;
    Common styles
    ============================== */
   
+.float_left {
+  float: left;
+}
+.container_about {
+  width: 45%;
+  height: 15%;
+  /*border: dashed blue 1px;*/
+}
+
+.container_about img {
+  max-height: 100%;
+  max-width: 100%;
+  float: none;
+}
 .fa {
   font-size: 20px;
   width: 40px;
@@ -2461,6 +2475,9 @@ a.logo:hover{
     background-color: #373532;
 }
 
+.bg-black-lighter2{
+    background-color: #111111;
+}
 .bg-transparent{
     background-color: transparent;
 }
